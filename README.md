@@ -7,7 +7,7 @@ We are using the following libraries to help us in analyzing music and build a n
 * [TensorFlow](https://www.tensorflow.org/)
 * [Librosa](https://github.com/librosa/librosa)
 
-# Dataset for Training Neural Network
+## Dataset for Training Neural Network
 The GTZAN data for music genre classification can be found [here](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification). This contains 1.6 Gb of 30 second clips of all sorts of genres. This is awesome as we cna use it to train our model. 
 
 ## extract_data.py 
