@@ -1,5 +1,6 @@
 # CS4793_AI_Project
 Genre classifying project for CS4793
+CREATED_BY: Adam Byczkowski, Morgan Houston, Jonathan McDonald
 
 
 ## Python Libraries
@@ -8,7 +9,7 @@ We are using the following libraries to help us in analyzing music and build a n
 * [Librosa](https://github.com/librosa/librosa)
 
 ## Dataset for Training Neural Network
-The GTZAN data for music genre classification can be found [here](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification). This contains 1.6 Gb of 30 second clips of all sorts of genres. This is awesome as we cna use it to train our model. 
+The GTZAN data for music genre classification can be found [here](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification). This contains 1.6 Gb of 30 second clips of all sorts of genres. This is awesome as we can use it to train our model. 
 
 ## extract_data.py 
 In order for us to be able to build a neural network to interpret songs, we had to research on how audio files are converted for music analysis. After some research we found that we needed to use MFCC's (Mel-frequency Cepstral Coefficients). In short, these coefficients are used to determine what typs of instruments are in a recording. This python file goes through each song in the dataset and creates MFCC's for them. It also maps those MFCC's generated to whichever specific genre they are. (Ex: blues = 0, classical = 1, etc ) 
