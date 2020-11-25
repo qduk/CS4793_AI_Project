@@ -127,7 +127,7 @@ if __name__ == "__main__":
     history = model.fit(X_train, y_train, validation_data=(X_validation, y_validation), batch_size=32, epochs=30)
 
     # plot accuracy/error for training and validation
-    plot_history(history)
+    # plot_history(history)
 
     # evaluate model on test set
     test_loss, test_acc = model.evaluate(X_test, y_test, verbose=2)
